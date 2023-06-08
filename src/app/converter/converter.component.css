@@ -1,0 +1,53 @@
+:host {
+    text-align: center;
+}
+
+
+h1 {
+    color: white;
+    margin: 20px;
+}
+
+input {
+    padding: 5px;
+    border-radius: 5px;
+    margin: 20px;
+    background: orange;
+    width: 60%;
+    font-size: 18px;
+}
+
+.output {
+    color: white;
+    margin: 20px;
+    font-size:clamp(10px, 24px, 36px);
+}
+
+label {
+    display: inline-block;
+    margin: 10px;
+    font-weight: 600;
+    color: white;
+    font-size:clamp(10px, 24px, 36px);
+    width: fit-content;
+}
+
+.selector {
+    border-radius: 5px;
+    background-color: orange;
+    color: #080808;
+    perspective: 800px;
+    width: fit-content;
+    padding: 3px;
+    margin: 60px 10px;
+    font-size: 16px;
+}
+
+.container {
+    background-color: black;
+    border-radius: 20px;
+    border: 5px grey solid;
+    width: min(600px, calc(100vw - 40px));
+    margin: 0 auto;
+    margin-top: 40px;
+}

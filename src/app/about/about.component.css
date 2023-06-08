@@ -1,0 +1,13 @@
+body {
+    font-family:'Titillium Web','sans-serif';
+    margin-left: 0;
+    padding-left: 0;
+}
+
+span {
+    font-weight: 700;
+}
+
+.container {
+    margin-left: 50px;
+}
